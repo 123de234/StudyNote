@@ -32,6 +32,7 @@ class Valu___024root final : public VerilatedModule {
     CData/*5:0*/ alu__DOT__result;
     CData/*0:0*/ __Vclklast__TOP__clk;
     CData/*0:0*/ __Vclklast__TOP__rst;
+    VlUnpacked<CData/*0:0*/, 2> __Vm_traceActivity;
 
     // INTERNAL VARIABLES
     Valu__Syms* const vlSymsp;
